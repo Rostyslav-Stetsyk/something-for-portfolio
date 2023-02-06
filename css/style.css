@@ -1,6 +1,80 @@
 .web-view {
-    position: relative;
     width: 1440px;
-    height: 4830px;
-    background: #FFFFFF;
+    background-color: #ffffff;
+    margin: 80px auto;
+    padding: 78px 0 0 0;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+/* Navigation */
+
+.nav1 {
+    padding: 0;
+    margin: 0 0 0 914px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.nav2 {
+    padding: 0;
+    margin: -42px 0 0 1032px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.nav3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.nav4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.arrow5-2 {
+    position: absolute;
+    width: 428.1px;
+    height: 318.6px;
+    margin-left: 108px;
+}
+
+.introduction {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 112px;
+    color: #000000;
+    margin: 280px 0 0 98px;
 }
