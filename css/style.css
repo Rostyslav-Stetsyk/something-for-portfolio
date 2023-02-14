@@ -11,50 +11,20 @@ body {
 
 /* Navigation */
 
-.nav1 {
+.nav-part {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-right: 20px;
+}
+
+.block-nav {
+    margin: 0;
     padding: 0;
-    margin: 0 0 0 914px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    color: #000000;
-}
-
-.nav2 {
-    padding: 0;
-    margin: -42px 0 0 1032px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    color: #000000;
-}
-
-.nav3 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    color: #000000;
-}
-
-.nav4 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    color: #000000;
-}
-
-ul {
-    list-style: none;
-    margin-left: 0;
-    padding-left: 0;
+    padding-left: 912px;
 }
 
 a {
@@ -62,19 +32,118 @@ a {
     text-decoration: none;
 }
 
+/* intro */
+
 .arrow5-2 {
-    position: absolute;
-    width: 428.1px;
-    height: 318.6px;
-    margin-left: 108px;
+    margin: 0 0 0 100px;
+    padding: 0;
 }
 
-.introduction {
+.introduction-1 {
     text-decoration: none;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
     font-size: 96px;
     line-height: 112px;
     color: #000000;
-    margin: 280px 0 0 98px;
+    margin: -272px 0 0 98px;
+}
+
+.introduction-2 {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 112px;
+    color: #000000;
+    margin: 0 0 0 98px;
+}
+
+.my-name {
+    font-weight: 400;
+    color: #006D77;
+}
+
+.intro-about {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin: 20px 0 0 186px;
+    padding: 0;
+    width: 900px;
+}
+
+/* social icon */
+
+.line {
+    margin: 48px 0 0 600px;
+    padding: 0;
+}
+
+.icons {
+    margin: 56px 0 0 918px;
+    padding: 0;
+}
+
+.icon {
+    margin: 0;
+    padding: 0;
+    margin-right: 24px;
+}
+
+/* Skills */
+
+.skills {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 300px;
+    line-height: 352px;
+    color: #EDF6F9;
+    padding: 0 48px 0 0;
+    margin: 0;
+}
+
+.table1 {
+    margin: 178px 0 0 0;
+    padding: 0;
+}
+
+td {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.td1 {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    padding-right: 72px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.td1-image {
+    text-align: right;
+    padding-right: 108px;
+}
+
+.soft-skills {
+    margin: 0;
+    padding: 0;
 }

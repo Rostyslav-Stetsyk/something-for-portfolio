@@ -17,66 +17,79 @@
     <div class="web-view">
       <!-- Nav -->
       <nav>
-        <ul>
-          <li class="nav1"><a href="#about"> About</a></li>
-          <li class="nav2"><a href="#skills">Skills</a></li>
-          <li class="nav3"><a href="#work"> Work</a></li>
-          <li class="nav4"><a href="#contact"> Contact</a></li>
-        </ul>
+        <p class="block-nav">
+          <a href="#about" class="nav-part"> About</a>
+          <a href="#skills" class="nav-part">Skills</a>
+          <a href="#work" class="nav-part"> Work</a>
+          <a href="#contact" class="nav-part"> Contact</a>
+        </p>
       </nav>
+
       <!-- intro -->
       <div>
         <img src="./img/Arrow5 2.svg" alt="Arrow" class="arrow5-2" />
         <h1>
-          <p class="introduction">Hello</p>
-          <p>I am<span>Amy Oulton.</span></p>
+          <p class="introduction-1">Hello.</p>
+          <p class="introduction-2">
+            I am <span class="my-name">Amy Oulton.</span>
+          </p>
         </h1>
-        <p>
+        <p class="intro-about">
           An artist turned web-developer from Vancouver, BC. I love working on
           the front-end and making beautiful designs come to life.
         </p>
       </div>
+
       <!-- Social icon -->
-      <div>
+      <div class="line">
         <img src="./img/Line 1.svg" alt="Line" />
-        <ul>
-          <li><img src="./img/inst.svg" alt="Instagram" /></li>
-          <li><img src="./img/twit.svg" alt="Twitter" /></li>
-          <li>
-            <img src="./img/dev.svg" alt="Dev" />
-          </li>
-          <li><img src="./img/git.svg" alt="GitHub" /></li>
-          <li><img src="./img/in.svg" alt="LinkedIn" /></li>
-        </ul>
       </div>
+      <div class="icons">
+        <img src="./img/inst.svg" alt="Instagram" class="icon" />
+        <img src="./img/twit.svg" alt="Twitter" class="icon" />
+        <img src="./img/dev.svg" alt="Dev" class="icon" />
+        <img src="./img/git.svg" alt="GitHub" class="icon" />
+        <img src="./img/in.svg" alt="LinkedIn" class="icon" />
+      </div>
+
       <!-- Skills -->
       <div>
-        <h2 id="skills">Skills</h2>
-        <span>
-          <img
-            src="./img/man-working-on-laptop 1.svg"
-            alt="Man working on laptop"
-          />
-          <ul>
-            <li>Illustration</li>
-            <li>Writing</li>
-            <li>Social Media</li>
-            <li>Content Creation</li>
-            <li>Team Management</li>
-            <li>Communication</li>
-          </ul>
-        </span>
-        <span>
-          <img src="./img/embed-code 1.svg" alt="Embed code" />
-          <ul>
-            <li>Git</li>
-            <li>CSS</li>
-            <li>HTML</li>
-            <li>JavaScript</li>
-            <li>Postgresql</li>
-            <li>Ruby on Rails</li>
-          </ul>
-        </span>
+        <table class="table1">
+          <tr>
+            <td rowspan="7" class="skills" id="skills">Skills</td>
+            <td class="td1-image">
+              <img
+                src="./img/man-working-on-laptop 1.svg"
+                alt="Man working on laptop"
+              />
+            </td>
+            <td><img src="./img/embed-code 1.svg" alt="Embed code" /></td>
+          </tr>
+          <tr>
+            <td class="td1">Illustration</td>
+            <td>Git</td>
+          </tr>
+          <tr>
+            <td class="td1">Writing</td>
+            <td>CSS</td>
+          </tr>
+          <tr>
+            <td class="td1">Social Media</td>
+            <td>HTML</td>
+          </tr>
+          <tr>
+            <td class="td1">Content Creation</td>
+            <td>JavaScript</td>
+          </tr>
+          <tr>
+            <td class="td1">Team Management</td>
+            <td>Postgresql</td>
+          </tr>
+          <tr>
+            <td class="td1">Communication</td>
+            <td>Ruby on Rails</td>
+          </tr>
+        </table>
       </div>
       <!-- Work -->
       <div>
